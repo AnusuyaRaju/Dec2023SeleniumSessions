@@ -20,6 +20,8 @@ public class ActionsClickSendkeys {
 		By login = By.xpath("//input[@value='Login']");
 		
 		
+		
+		
 		//action.click() is super powerful bcus when on webpage sometimes popups r coming like accept cookiess or not(here it's overlapping) at that time 
 		  //selenium unable to find the elements normal .click() & Sendkeys() won't work thats y we use action.click() & SendKeys()
 		    //action.click() is also not working then we move to JavaScriptExecutor() will see later
